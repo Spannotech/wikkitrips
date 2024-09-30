@@ -1,0 +1,279 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:"poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+
+.studyblock{
+    
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+}
+.studydiv{
+    
+    height: 450px;
+    width: 480px;
+    padding: 1%;
+    padding-top: 3%;
+    padding-left: 4%;
+
+}
+.studentpicdiv{
+    
+    height: 450px;
+    width: 480px; 
+    padding: 1%;
+    padding-right: 3%;
+}
+.pic1{
+    height: 430px;
+    width: 460px;
+}
+font{
+    color: #006283;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size:x-small;
+}
+.ourptexts{
+    
+    height: 150px;
+    width: 1000px; 
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.textforprogramme{
+    
+    height: 125px;
+    width: 480px; 
+    padding-left: 4%;
+    padding-top: 10%;
+   
+    
+}
+
+.textfortextsindiv{
+    
+    height: 125px;
+    width: 480px; 
+    padding-top: 10%;
+    padding-left: 1%;
+}
+h2{
+    font-size: xx-large;
+}
+
+
+.ourprogrammeblock{
+    
+    height: 500px;
+    width: 1000px;  
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+}
+.programmediv{
+    
+    height: 450px;
+    width: 440px;
+    padding: 1%;
+   
+}
+.pic2{
+    
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+   
+    
+}
+.rowdivcontainer{
+    
+    height: 450px;
+    width: 520px;
+    display: flex;  
+    flex-direction: column; 
+    padding: 10px;   
+    padding-top: 4%;
+}
+
+.p2{
+    font-size: large;
+}
+
+.p3{
+    font-size: large;
+    color: white;
+}
+
+.firstdiv{
+    
+    height: 70px;
+    width: 450px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.seconddiv{
+   
+    height: 70px;
+    width: 450px;
+    background-color: #006283;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.thirddiv{
+   
+    height: 50px;
+    width: 450px;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 3%;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width:600px){
+    *{
+        padding: 0;
+        margin:0%;
+       
+    }
+    .studyblock{
+        
+        height: 500px;
+        width: 500px;
+        display: flex;
+        flex-direction:column;
+        padding: 12px;
+      
+    }
+
+    .studentpicdiv{
+        
+        height: 300px;
+        width: 400px; 
+        padding: 1%;
+        padding-right: 3%;
+    }
+
+    .pic1{
+        height: 250px;
+        width: 250px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .ourprogrammeblock{
+    
+        height: 300px;
+        width: 500px;  
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+
+    }
+    .pic2{
+    
+        height: 200px;
+        width: 300px;
+        border-radius: 5px;
+      
+       
+    }
+    .ourptexts{
+        
+        height: 70px;
+        width: 500px; 
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    .programmediv{
+        
+        height: 450px;
+        width: 440px;
+        padding: 1%;
+    }
+.textfortextsindiv{
+    
+    height: 80px;
+    width: 300px; 
+    padding-top: 2%;
+    padding-left: 1%;
+}
+.firstdiv{
+    
+    height: 50px;
+    width: 250px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.seconddiv{
+   
+    height: 50px;
+    width: 250px;
+    background-color: #006283;
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.thirddiv{
+   
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-top: 3%;
+    background-color: whitesmoke;
+}
+
+.p2{
+    font-size: small;
+}
+
+.p3{
+    font-size: small;
+    color: white;
+}
+
+h2{
+    font-size: large;
+}
+
+.textforprogramme{
+    
+    height: 125px;
+    width: 280px; 
+    padding-left: 1%;
+    padding-top: 2%;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+}
